@@ -1,0 +1,158 @@
+.team{
+    padding: 2rem 1rem 4rem 1rem;
+    display: grid;
+    place-items: center;
+    /* background:#f9f9ff ;
+    border-radius: 20px;
+    margin:6rem; */
+}
+
+.team-heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+
+}
+
+.team-heading h2{
+    font-size: 6rem;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 2rem;
+    color: rgb(0,0,0,0.8);
+}
+
+.team-heading span{
+    color: #fdae5c;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.team-heading span ::before{
+    position: absolute;
+    top: 50%;
+    right:-60px;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background-color: #fdae5c;
+
+}
+
+.team-heading span ::after{
+    position: absolute;
+    top: 50%;
+    right:-60px;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background-color: #fdae5c;
+
+}
+
+
+.team-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.team-column
+{
+    margin: 15px;
+    padding: 15px;
+}
+
+.single-team{
+    margin-bottom: 30px;
+
+}
+
+.team-thumb{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.team-thumb img{
+    width: 250px;
+    height: 270px;
+    border-radius: 10px;
+    transition: 0.3s;
+
+    
+}
+
+.team-column:hover .team-thumb img{
+    transform: scale(1.1);
+}
+
+ .team-thumb .social-link{
+    position: absolute;
+    bottom: 0;
+    width: 250px;
+    background-color: rgba(0,29,56,0.5);
+    border-radius: 10px;
+    text-align: center;
+    padding: 13px 0;
+    transition: 0.5s;
+    transform: translateY(100%) scale(1.2);
+    opacity: 0;
+    visibility: hidden;
+} 
+
+.team-column:hover .social-link{
+    transform: translate(0%) scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+.team-thumb .social-link ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-thumb .social-link li a{
+    font-size: 15px;
+    color: #C7C7C7;
+    margin: 0 6px;
+
+}
+.team-info{
+    text-align: center;
+   
+
+}
+
+.team-info h3{
+    padding-top: 1rem;
+}
+
+.team-info h3{
+    padding-top: 1 rem;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #2C2C2C;
+    margin-bottom: 0;
+
+
+}
+
+.team-info p{
+    font-size: 17px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}  
