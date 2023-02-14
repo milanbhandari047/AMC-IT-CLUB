@@ -58,10 +58,13 @@ const Wrapper = styled.section`
 
   .heading {
     text-transform: uppercase;
+    word-spacing: -19px;
     font-size: 6rem;
     font-weight: 500;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(0,0,0,0.8);
+    
+    
   }
 
   .home-paragraph  {

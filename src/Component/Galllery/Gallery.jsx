@@ -71,7 +71,7 @@ const getImg = (imgSrc) =>{
       <h2 style =  {{
         textAlign:'center' , fontSize:'6rem', 
         padding:'2rem',
-        color:'black',
+        color:'rgb(0,0,0,0.8)',
         fontWeight:'500',
         textTransform:'uppercase'
          }}> Image Gallery </h2>

@@ -1,6 +1,6 @@
 .mission_vision_goals_container {
   /* background:rgb(171, 207, 207); */
-  background-color: rgb(226, 221, 214);
+  background-color: rgb(245, 244, 242);
   height: auto;
   width: 100vw;
   margin: 6rem 0;
@@ -42,19 +42,8 @@
   padding-top: 2rem;
   color: rgb(0, 0, 0, 0.8);
   text-transform: uppercase;
-  word-spacing: -10px;
+  /* word-spacing: -10px; */
 }
-/* .club_mission{
-    background-color: red;
-
-}
-.club_vision{
-    
-    background-color: blueviolet;
-}
-.club_goals{
-    background-color: aqua;
-} */
 
 .club_Container h3 {
   font-size: 20px;
