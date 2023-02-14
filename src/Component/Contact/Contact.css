@@ -15,11 +15,12 @@
   .contacts{
     font-size: 6rem;
     font-weight: 500;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 2rem;
     color: rgb(0,0,0,0.8);
     text-transform: uppercase;
-    word-spacing: -10px;
+    word-spacing: 5px;
+  
     
   }
   
