@@ -12,9 +12,9 @@ const ExecutiveTeam = () => {
       
 <section className='team' >
 
-<div className="team-heading">
+<div>
    
-    <h2> EXECUTIVE TEAM</h2>
+    <h2 className="team-heading"> EXECUTIVE TEAM</h2>
 
 </div>
 
