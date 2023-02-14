@@ -1,0 +1,82 @@
+.mission_vision_goals_container{
+    background:rgb(171, 207, 207);
+    height: auto;
+    width: 100vw;
+    /* margin-left: 10px;
+    margin-right: 105px;
+    border-radius: 15px; */
+    
+
+    
+}
+.club_Container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    /* background: rgb(171, 207, 207); */
+    gap:10px;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.club_mission,.club_vision,.club_goals{
+    margin: 1rem;
+    padding: 15px;
+    flex: 30%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    background-color: azure;
+
+}
+
+.mission{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    font-size: 6rem;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 2rem;
+    color: rgb(0,0,0,0.8);
+    text-transform: uppercase;
+    word-spacing: -10px;
+}
+/* .club_mission{
+    background-color: red;
+
+}
+.club_vision{
+    
+    background-color: blueviolet;
+}
+.club_goals{
+    background-color: aqua;
+} */
+
+.club_Container h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.club_Container p {
+    max-width: 700px;
+    margin: 10px auto;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+@media screen  and (max-width:1000px){
+    .club_goals,.club_mission,.club_vision{
+        display: flex;
+        flex-direction: column;
+        flex: 100%;
+        margin: 3rem;
+    }
+}

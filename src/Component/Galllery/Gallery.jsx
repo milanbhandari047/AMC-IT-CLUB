@@ -69,8 +69,13 @@ const getImg = (imgSrc) =>{
 
     <div>
       <h2 style =  {{
-        textAlign:'center' , fontSize:'6rem', fontWeight:'500' }}> Image Gallery </h2>
-      <h3 style =  {{textAlign:'center',fontSize:'3.5rem' }}> Photo Collection of AMC IT CLUB </h3>
+        textAlign:'center' , fontSize:'6rem', 
+        padding:'2rem',
+        color:'black',
+        fontWeight:'500',
+        textTransform:'uppercase'
+         }}> Image Gallery </h2>
+      <h3 style =  {{textAlign:'center',fontSize:'20px' ,paddingBottom:'2rem'}}> Photo Collection of AMC IT CLUB </h3>
 
 
       <div className={model? "model open" : "model"} >

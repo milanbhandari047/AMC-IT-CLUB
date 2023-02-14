@@ -43,12 +43,14 @@ const Contact = () => {
          type="text" 
          name="user_name"    
          placeholder="Name" 
+         autoComplete="off"
       />
         <label>Email</label>
         <input
          type="email"
           name="user_email" 
-          placeholder="Email"   
+          placeholder="Email"  
+          autoComplete="off" 
         />
         <label>Message</label>
         <textarea 
@@ -56,6 +58,7 @@ const Contact = () => {
          cols="30"
           rows="10"
           placeholder="Message"
+          autoComplete="off"
           />
         <input 
         type="submit"

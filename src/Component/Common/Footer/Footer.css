@@ -3,11 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background: #fcfcfc;
-}
+
+
 footer {
-  background: rgb(171, 207, 207);
+  background:rgb(171, 207, 207);
   height: auto;
   width: 100vw;
   /* padding-top:40px; */
@@ -24,25 +23,23 @@ footer {
 }
 
 .footer_left {
-  background-color: red;
   padding: 10px;
   flex: 33.33%;
 }
 
 .footer_middle {
-  background-color: gold;
   padding: 10px;
   flex: 33.33%;
 }
 
 .footer_right {
-  background-color: cyan;
   padding: 10px;
   flex: 33.33%;
   font-size: 15px;
 }
 
 .footer-content h3 {
+  font-size: 20px;
   text-transform: capitalize;
   line-height: 3rem;
   
@@ -68,7 +65,7 @@ footer {
 
 .social-link a {
   text-decoration: none;
-  color: #000000;
+  color: #383636;
 }
 
 .social-link li{

@@ -60,13 +60,14 @@ const Wrapper = styled.section`
     text-transform: uppercase;
     font-size: 6rem;
     font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0,0,0,0.8);
   }
 
-  .home-paragraph {
+  .home-paragraph  {
     margin-top: 1.5rem;
     margin-bottom: 3.4rem;
     max-width: 60rem;
-  
     
   }
 
