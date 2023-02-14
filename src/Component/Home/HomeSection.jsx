@@ -58,7 +58,7 @@ const Wrapper = styled.section`
 
   .heading {
     text-transform: uppercase;
-    word-spacing: -15px;
+    word-spacing: -12px;
     font-size: 6rem;
     font-weight: 500;
     font-family: 'Courier New', Courier, monospace;
