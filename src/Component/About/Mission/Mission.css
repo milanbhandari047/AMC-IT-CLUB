@@ -1,11 +1,16 @@
 .mission_vision_goals_container {
-  /* background:rgb(171, 207, 207); */
-  background-color: rgb(245, 244, 242);
-  height: auto;
-  width: 100vw;
-  margin: 6rem 0;
-  padding: 2rem;
+
+
+  padding: 5rem 0  5rem 0;
+  margin:3rem;
+  text-align:center;
+  background: #f9f9ff;
+  border-radius: 20px;
+
+ 
+  
 }
+
 .club_Container {
   display: flex;
   flex-direction: row;

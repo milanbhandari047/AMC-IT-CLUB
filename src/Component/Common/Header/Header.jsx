@@ -61,6 +61,14 @@ max-width:100px;
   }
 }  
 
+@media screen and (min-width:1500px) {
+  .logo{
+   margin-left:40px;
+    
+      }
+    }  
+}
+
 `;
 
 export default Header

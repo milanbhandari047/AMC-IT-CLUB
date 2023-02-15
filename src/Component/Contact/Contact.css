@@ -2,14 +2,16 @@
     padding: 5rem 0  5rem 0;
     margin:6rem;
     text-align:center;
-    /* background: #f9f9ff;
-    border-radius: 20px; */
+    background: #f9f9ff;
+    border-radius: 20px;
+    
  }
 
   
   .contact-form{
     max-width:50rem;
     margin:auto;
+   
     
   }
   .contacts{

@@ -124,13 +124,12 @@ const Navbar = () => {
       }
     }
 
-    // @media screen and (min-width:1500px) {
-    //   .navbar-list{
-    //     gap:15rem;
-    //     margin-right: 136px;
-        
-    // }
-    // }
+    @media screen and (min-width:1500px) {
+      .navbar-list{
+        gap:15rem;
+        margin-right: 136px;  
+    }
+    }
   `;
 
   return (
