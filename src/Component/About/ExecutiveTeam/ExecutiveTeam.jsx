@@ -9,7 +9,7 @@ const ExecutiveTeam = () => {
     const[detail, setDetail] = useState(Teamdetails);
   return (
     <Fragment>
-      
+      <div className="container">
 <section className='team' >
 
 <div>
@@ -56,6 +56,7 @@ const ExecutiveTeam = () => {
 </div>
 
 </section>
+</div>
 
     </Fragment>
   )

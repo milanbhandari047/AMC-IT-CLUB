@@ -3,7 +3,7 @@ import "./Mission.css"
 
 const Mission = () => {
   return (
-    <div className="mission_vision_goals_container">
+    <div className="container">
       <div className="box">
 
       <h1 className='mission'>OUR MISSION</h1>

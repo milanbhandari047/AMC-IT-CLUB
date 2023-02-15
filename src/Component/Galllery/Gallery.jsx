@@ -67,7 +67,7 @@ const getImg = (imgSrc) =>{
 <>
 
 
-    <div>
+    <div className='container'>
       <h2 className='image_main_heading'> Image Gallery </h2>
       <h3 style =  {{textAlign:'center',fontSize:'20px' ,paddingBottom:'2rem'}}> Photo Collection of AMC IT CLUB </h3>
 
