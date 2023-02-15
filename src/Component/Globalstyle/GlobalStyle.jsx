@@ -169,6 +169,10 @@ li {
 /* for mobile devices */
 
  @media screen  and (max-width:768px){
+  // .container{
+  //   margin: auto;
+  //   max-width: 48rem;
+  // }
 .heading{
   padding-top:2rem;
 }
