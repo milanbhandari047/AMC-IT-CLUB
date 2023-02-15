@@ -21,6 +21,7 @@ const Navbar = () => {
             text-decoration: none;
             font-size: 3rem;
             text-transform: uppercase;
+            
            color: ${({ theme }) => theme.colors.black};
             
             transition: color 0.3s linear;
@@ -116,6 +117,20 @@ const Navbar = () => {
         z-index: 999;
       }
     }
+
+    @media screen and (min-width:768px) and (max-width:960px){
+      .navbar-list{
+    gap:2.8rem;
+      }
+    }
+
+    // @media screen and (min-width:1500px) {
+    //   .navbar-list{
+    //     gap:15rem;
+    //     margin-right: 136px;
+        
+    // }
+    // }
   `;
 
   return (

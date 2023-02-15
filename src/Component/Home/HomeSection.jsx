@@ -59,7 +59,7 @@ const Wrapper = styled.section`
   .heading {
     text-transform: uppercase;
     word-spacing: 5px;
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0,0,0,0.8);

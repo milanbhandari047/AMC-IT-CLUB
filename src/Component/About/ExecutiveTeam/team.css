@@ -8,15 +8,27 @@
 }
 
 .team-heading {
-    text-transform: uppercase;
+   display: flex;
+flex-direction: row;
+    text-align: center;
+    font-size: 4rem;
+    padding: 2rem;
     word-spacing: 5px;
-    font-size: 6rem;
     font-weight: 500;
+    text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0,0,0,0.8)
+    color: rgb(0,0,0,0.8);
     
    
 
+}
+@media screen and (max-width:400px){
+    .team-heading{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    
 }
 
 .team-heading h2{
