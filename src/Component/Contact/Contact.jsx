@@ -32,7 +32,7 @@ const Contact = () => {
     <>
       <div className="container">
       <div className="contact-form">
-      <h1 className='contacts'>Contact Us</h1>
+      <h1 className='heading'>Contact Us</h1>
       <form 
       ref={form} 
       onSubmit={sendEmail}

@@ -6,31 +6,8 @@
    
 }
 
-.team-heading {
-   display: flex;
-flex-direction: row;
-    text-align: center;
-    font-size: 4rem;
-    padding: 2rem;
-    word-spacing: 5px;
-    font-weight: 500;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0,0,0,0.8);
-    
-   
 
-}
-@media screen and (max-width:400px){
-    .team-heading{
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-    }
-    
-}
-
-.team-heading h2{
+.heading h2{
     font-size: 6rem;
     font-weight: 500;
     font-family: 'Courier New', Courier, monospace;
@@ -38,7 +15,7 @@ flex-direction: row;
     color: rgb(0,0,0,0.8);
 }
 
-.team-heading span{
+.heading span{
     color: #fdae5c;
     font-size: 12px;
     font-weight: 600;
@@ -47,7 +24,7 @@ flex-direction: row;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.team-heading span ::before{
+.heading span ::before{
     position: absolute;
     top: 50%;
     right:-60px;
@@ -58,7 +35,7 @@ flex-direction: row;
 
 }
 
-.team-heading span ::after{
+.heading span ::after{
     position: absolute;
     top: 50%;
     right:-60px;

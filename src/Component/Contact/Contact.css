@@ -2,15 +2,7 @@
   max-width: 50rem;
   margin: auto;
 }
-.contacts {
-  font-size: 4rem;
-  font-weight: 500;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-top: 2rem;
-  color: rgb(0, 0, 0, 0.8);
-  text-transform: uppercase;
-  word-spacing: 5px;
-}
+
 
 .contact-inputs {
   display: flex;

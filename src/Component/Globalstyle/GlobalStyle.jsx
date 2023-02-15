@@ -109,6 +109,22 @@ li {
       text-transform: capitalize;
     }
 
+
+.heading{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: .7rem;
+  color: rgb(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  word-spacing: 5px;
+}
+
+
     input, textarea{
     max-width: 50rem;
     color: ${({ theme }) => theme.colors.black};
@@ -153,7 +169,9 @@ li {
 /* for mobile devices */
 
  @media screen  and (max-width:768px){
-
+.heading{
+  padding-top:2rem;
+}
   input[type="submit"]{
     margin-bottom: 4rem;
   }

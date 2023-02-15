@@ -14,7 +14,7 @@ const ExecutiveTeam = () => {
 
 <div>
    
-    <h2 className="team-heading"> EXECUTIVE TEAM</h2>
+    <h2 className="heading"> EXECUTIVE TEAM</h2>
 
 </div>
 
