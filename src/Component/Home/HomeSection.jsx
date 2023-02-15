@@ -32,7 +32,7 @@ const HomeSection = () => {
 };
 
 const Wrapper = styled.section`
-  padding: 9rem 0;
+
 
   .main-content {
     display: flex;
@@ -43,18 +43,14 @@ const Wrapper = styled.section`
   .btn {
     max-width: 17rem;
     border-radius:10px;
+    margin-left:18px;
+    
   
   }
   .btn:hover{
     background-color: rgb(98 84 243);
   }
 
-  .hero-top-data {
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 1.5rem;
-    color: ${({ theme }) => theme.colors.helper};
-  }
 
   .heading {
     text-transform: uppercase;
@@ -66,11 +62,26 @@ const Wrapper = styled.section`
     
     
   }
+  // for mobile devices
+  @media screen and (max-width:768px){
+    .heading{
+      margin-top:4rem;
+    }
+    .home-img{
+      padding-bottom:6rem;
+    }
+    .btn{
+      margin-top:2rem;
+      margin-bottom:2rem;
+    }
+
+  }
 
   .home-paragraph  {
     margin-top: 1.5rem;
     margin-bottom: 3.4rem;
     max-width: 60rem;
+    margin-left:18px;
     
   }
 

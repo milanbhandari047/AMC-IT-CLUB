@@ -76,8 +76,14 @@ li {
 
 .container {
   max-width: 120rem;
-  margin: 0 auto;
-}
+  margin: 6rem auto;
+    padding: 5rem 0 5rem 0;
+    text-align: center;
+    background: #f9f9ff;
+    border-radius: 20px;
+    
+  }
+
 
 .grid {
   display: grid;
@@ -143,6 +149,15 @@ li {
       grid-template-columns: 1fr 1fr;
     }
 }
+
+/* for mobile devices */
+
+ @media screen  and (max-width:768px){
+
+  input[type="submit"]{
+    margin-bottom: 4rem;
+  }
+ }
 
 @media (max-width:${({ theme }) => theme.media.mobile}) {
 
