@@ -7,7 +7,7 @@ import {Button}from '../Common/Button/Button.js'
 const Error = () => {
   return (
     <Wrapper>
-<img src="../images/error.svg" alt="Page Not Found" />
+<img src="/ErrorImage/error.png" alt="Page Not Found" />
 <NavLink to="/">
 <Button className='btn' >
     Go Back
