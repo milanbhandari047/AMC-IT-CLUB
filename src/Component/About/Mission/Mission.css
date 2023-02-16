@@ -37,7 +37,7 @@
   font-size: 15px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   .club_goals,
   .club_mission,
   .club_vision {

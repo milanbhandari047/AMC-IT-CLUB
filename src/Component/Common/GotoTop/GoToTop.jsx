@@ -86,10 +86,11 @@ justify-content:center;
     }
 
 }
-@media (max-width:${({theme}) => theme.media.mobile}){
+@media and (max-width:768px)){
   .top-btn{
-    left:40%;
     right:0;
+    left:40%;
+   
   }
 }
 

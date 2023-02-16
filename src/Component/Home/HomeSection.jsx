@@ -55,16 +55,17 @@ const Wrapper = styled.section`
 
   // for mobile devices
   @media screen and (max-width:768px){
-  
+ 
     .home-img{
       padding-bottom:6rem;
     }
     .btn{
-      margin-top:2rem;
-      margin-bottom:2rem;
+      margin:2rem 0;
     }
 
   }
+
+
 
   .home-paragraph  {
     margin-top: 1.5rem;

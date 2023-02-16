@@ -166,21 +166,13 @@ li {
     }
 }
 
-// @media screen  and (max-width:1300px){
-//   .container{
-//   margin:0  4rem ;
-// }
-// }
+
 
 
 /* for mobile devices */
 
  @media screen  and (max-width:768px){
-  // .container{
-  //   margin: auto;
-  //   max-width: 48rem;
-  // }
-.heading{
+ .heading{
   padding-top:2rem;
 }
   input[type="submit"]{
@@ -204,4 +196,19 @@ li {
 }
 
 
+  
+
+@media screen and (min-width:768px) and (max-width:1000px){
+ 
+ 
+  .heading{
+    margin:2rem 0;
+  }
+  .btn ,input[type="submit"]{
+    margin:4rem 0;
+  }
+
+
+  
+}
 `;
