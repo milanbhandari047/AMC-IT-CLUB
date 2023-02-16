@@ -86,6 +86,12 @@ justify-content:center;
     }
 
 }
+@media (max-width:${({theme}) => theme.media.mobile}){
+  .top-btn{
+    left:40%;
+    right:0;
+  }
+}
 
 `;
 

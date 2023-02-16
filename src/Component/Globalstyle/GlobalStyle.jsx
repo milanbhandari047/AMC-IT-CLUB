@@ -166,6 +166,13 @@ li {
     }
 }
 
+// @media screen  and (max-width:1300px){
+//   .container{
+//   margin:0  4rem ;
+// }
+// }
+
+
 /* for mobile devices */
 
  @media screen  and (max-width:768px){
