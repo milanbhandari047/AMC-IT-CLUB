@@ -172,12 +172,33 @@ li {
 /* for mobile devices */
 
  @media screen  and (max-width:768px){
+  .container{
+    max-width: 95vw;
+    margin: 6rem auto;
+  
+  }
  .heading{
   padding-top:2rem;
 }
   input[type="submit"]{
     margin-bottom: 4rem;
   }
+ }
+
+
+ @media screen  and (min-width:768px)and (max-width:1250px){
+  .container{
+    max-width: 95vw;
+    margin: 6rem auto;
+  
+  }
+
+ }
+ @media screen  and (min-width:768px)and (max-width:1000px){
+ .heading{
+padding-top:40px;
+ }
+
  }
 
 @media (max-width:${({ theme }) => theme.media.mobile}) {

@@ -55,7 +55,7 @@ const Wrapper = styled.section`
 
   // for mobile devices
   @media screen and (max-width:768px){
- 
+
     .home-img{
       padding-bottom:6rem;
     }

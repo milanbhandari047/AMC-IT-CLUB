@@ -6,9 +6,7 @@
   -webkit-column-width: 33%;
   -moz-column-width: 33%;
   column-width: 33%;
-  padding: 0 12px;
-
-  
+  padding:0 12px;
 }
 
 .gallery .pics {
@@ -23,6 +21,11 @@
   filter: opacity(0.8);
 }
 
+@media  screen and (max-width:1000px) {
+  .gallery .pics {
+    padding: 6px;
+  }
+}
 @media (max-width: 991px) {
   .gallery {
     -webkit-column-count: 2;
