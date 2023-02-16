@@ -80,6 +80,7 @@ const Wrapper = styled.section`
   @media screen and (max-width:768px){
 
     .home-img{
+      margin-bottom:20px;
       border-radius:10px;
     }
     .btn{
