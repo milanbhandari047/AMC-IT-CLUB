@@ -86,11 +86,10 @@ justify-content:center;
     }
 
 }
-@media and (max-width:768px)){
+@media screen and (max-width:768px)){
   .top-btn{
-    right:0;
     left:40%;
-   
+    right:0;
   }
 }
 
