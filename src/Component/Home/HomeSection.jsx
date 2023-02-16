@@ -52,21 +52,6 @@ const Wrapper = styled.section`
   }
 
 
-
-  // for mobile devices
-  @media screen and (max-width:768px){
-
-    .home-img{
-      padding-bottom:6rem;
-    }
-    .btn{
-      margin:2rem 0;
-    }
-
-  }
-
-
-
   .home-paragraph  {
     margin-top: 1.5rem;
     margin-bottom: 3.4rem;
@@ -89,6 +74,19 @@ const Wrapper = styled.section`
     max-width: 80%;
     border-radius:10px;
   }
+
+
+  // for mobile devices
+  @media screen and (max-width:768px){
+
+    .home-img{
+      border-radius:10px;
+    }
+    .btn{
+      margin:2rem 0;
+    }
+  }
+
 
   @media (max-width: ${({ theme }) => theme.media.mobile}) 
     .grid {
