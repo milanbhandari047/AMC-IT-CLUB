@@ -210,7 +210,6 @@ padding-top:40px;
       .top-btn{
         right:0;
         left:40%;
-        overflow-x: hidden;
       }
 
       .grid{
