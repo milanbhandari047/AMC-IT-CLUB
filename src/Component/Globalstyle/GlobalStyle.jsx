@@ -207,6 +207,12 @@ padding-top:40px;
         font-size: 50%;
       }
 
+      .top-btn{
+        right:0;
+        left:40%;
+        overflow-x: hidden;
+      }
+
       .grid{
         gap: 3.2rem;
       }
@@ -215,6 +221,9 @@ padding-top:40px;
         grid-template-columns: 1fr;
       }
 }
+
+
+
 
 
   
@@ -232,4 +241,6 @@ padding-top:40px;
 
   
 }
+
+
 `;
