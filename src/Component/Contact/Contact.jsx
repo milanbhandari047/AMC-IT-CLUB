@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import"./Contact.css"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Contact = () => {
@@ -28,11 +30,20 @@ const Contact = () => {
       );
   };
 
+  //react - toastify function
+  const diffToast = ()=>{
+    toast.success("Your message has been submitted!",{
+      position:"top-center"
+    });
+   
+  }
+  
+  
   return (
     <>
       <div className="container">
       <div className="contact-form">
-      <h1 className='heading'>Contact Us</h1>
+      <h2 className='heading'>Contact Us</h2>
       <form 
       ref={form} 
       onSubmit={sendEmail}
@@ -63,11 +74,14 @@ const Contact = () => {
         <input 
         type="submit"
          value="Send" 
+      onClick={diffToast}
+
        
          />
       </form>
       </div>
       </div>
+      <ToastContainer/>
     </>
   );
 };

@@ -18,7 +18,7 @@ const HomeSection = () => {
           <Button className="btn home-btn">
             <NavLink to="/contact"> Contact Us </NavLink>
           </Button>
-        </div>
+        </div>              
 
         {/* for image  */}
         <div className="home-img-section">

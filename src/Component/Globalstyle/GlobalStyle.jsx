@@ -94,13 +94,6 @@ li {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.grid-three-column {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.grid-four-column{
-   grid-template-columns: 1fr 1.2fr .5fr .8fr ;
-}
 
   .common-heading {
       font-size: 3.8rem;
@@ -130,7 +123,7 @@ li {
     color: ${({ theme }) => theme.colors.black};
     padding: 1.6rem 2.4rem;
     border: 1px solid ${({ theme }) => theme.colors.border};
-    text-transform: uppercase;
+    text-transform: capitalize;
    box-shadow: ${({ theme }) => theme.colors.shadowSupport};
 }
     input[type="submit"]{
@@ -157,13 +150,9 @@ li {
 
 //998px
 @media (max-width:${({ theme }) => theme.media.tab}) {
-      .container{
+  .container{
         padding: 0 3.2rem;
-      }
-
-        .grid-three-column {
-      grid-template-columns: 1fr 1fr;
-    }
+      }     
 }
 
 
@@ -216,7 +205,7 @@ padding-top:40px;
         gap: 3.2rem;
       }
 
-      .grid-two-column, .grid-three-column, .grid-four-column{
+      .grid-two-column{
         grid-template-columns: 1fr;
       }
 }

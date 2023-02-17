@@ -13,6 +13,7 @@ input,
 textarea {
   font-size: 15px;
   border-radius: 5px;
+  
 }
 
 input[type="submit"] {

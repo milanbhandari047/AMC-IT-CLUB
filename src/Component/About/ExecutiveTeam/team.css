@@ -6,7 +6,13 @@
    
 }
 
-
+@media  screen and (max-width:440px) {
+    .team{
+    
+        text-align: center;
+        justify-content: center;
+    }
+}
 
 
 .heading h2{
