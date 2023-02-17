@@ -33,6 +33,7 @@
     column-count: 2;
   }
 }
+
 @media (max-width: 480px) {
   .gallery {
     -webkit-column-count: 1;
@@ -42,6 +43,7 @@
     -webkit-column-width: 100%;
     -moz-column-width: 100%;
     column-width: 100%;
+    
   }
 }
 

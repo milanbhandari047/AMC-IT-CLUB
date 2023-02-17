@@ -8,6 +8,12 @@ import 'react-toastify/dist/ReactToastify.css';
 const Contact = () => {
   const form = useRef();
 
+  const handleClick = () => {
+    // reset input field's value
+     document.getElementById("myForm").reset();
+  }
+  
+ 
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -31,7 +37,7 @@ const Contact = () => {
   };
 
   //react - toastify function
-  const diffToast = ()=>{
+  const Toast = ()=>{
     toast.success("Your message has been submitted!",{
       position:"top-center"
     });
@@ -48,6 +54,7 @@ const Contact = () => {
       ref={form} 
       onSubmit={sendEmail}
        className='contact-inputs'
+       id="myForm"
        >
         <label>Name</label>
         <input
@@ -74,9 +81,11 @@ const Contact = () => {
         <input 
         type="submit"
          value="Send" 
-      onClick={diffToast}
-
-       
+         onClick={() => {
+          Toast();
+          handleClick();
+          
+        }}
          />
       </form>
       </div>
