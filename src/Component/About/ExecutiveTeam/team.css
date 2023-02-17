@@ -1,18 +1,10 @@
 .team{
     padding: 2rem 1rem 4rem 1rem;
-    display: grid;
     place-items: center;
     
    
 }
 
-@media  screen and (max-width:440px) {
-    .team{
-    
-        text-align: center;
-        justify-content: center;
-    }
-}
 
 
 .heading h2{
@@ -138,12 +130,10 @@
 
 }
 
-.team-info h3{
-    padding-top: 1rem;
-}
+
 
 .team-info h3{
-    padding-top: 1 rem;
+    padding-top: 1rem;
     font-weight: 500;
     font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
@@ -161,3 +151,25 @@
     margin-top: 6px;
     margin-bottom: 8px;
 }  
+
+
+@media  screen and (max-width:440px) {
+    .team{
+    
+        text-align: center;
+        justify-content: center;
+    }
+   
+}
+
+/* @media  screen and (max-width:330px) {
+    .team{
+    
+       
+        max-width: 23rem;
+    }
+   
+} */
+
+
+
