@@ -164,7 +164,6 @@ li {
   .container{
     max-width: 95vw;
     margin: 6rem auto;
-  
   }
  .heading{
   padding-top:2rem;
