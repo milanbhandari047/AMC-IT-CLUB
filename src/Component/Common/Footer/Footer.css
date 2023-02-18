@@ -6,7 +6,8 @@
 
 
 footer {
-  background:rgb(171, 207, 207);
+  /* background:rgb(171, 207, 207); */
+  background:rgb(234, 241, 241);
   height: auto;
   width: 100vw;
   padding-top:30px;
@@ -81,7 +82,8 @@ footer {
   color: rgb(103, 107, 107);
 }
 .footer-bottom {
-  background: rgb(171, 207, 207);
+  /* background: rgb(171, 207, 207); */
+  background:rgb(234, 241, 241);
   width: 100vw;
   padding: 20px 0;
   text-align: center;

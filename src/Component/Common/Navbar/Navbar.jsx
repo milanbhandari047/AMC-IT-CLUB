@@ -10,6 +10,7 @@ const Navbar = () => {
     .navbar-list {
       display: flex;
       gap: 4.8rem;
+      
 
       li {
         list-style: none;

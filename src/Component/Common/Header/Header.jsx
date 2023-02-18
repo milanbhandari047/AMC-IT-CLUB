@@ -23,7 +23,7 @@ const MainHeader = styled.header`
 padding:0 4.8rem;
 height:10rem;
 line-height:10rem;
-background-color:rgb(171, 207, 207);
+background:rgb(234, 241, 241);
 display:flex;
 justify-content:space-between;
 align-center:center;

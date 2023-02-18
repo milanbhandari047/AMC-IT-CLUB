@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="footer_middle">
             <h3>Contact Us</h3>
             <p>
-              Ghorahi 15,Ambikshwari campus
+              Ghorahi 15,Ambikeshwari campus
               <br />
               Email:amcitclub@gmail.com
             </p>
@@ -27,7 +27,7 @@ const Footer = () => {
 
           <div className="footer_right">
             <ul className="social-link">
-              <h3>Socail Media</h3>
+              <h3>Social Media</h3>
               <li>
                 <a href="https://www.facebook.com/amcitclub">
                 {" "}
