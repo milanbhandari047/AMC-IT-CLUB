@@ -96,6 +96,14 @@
   color: white;
   cursor: pointer;
 }
-/* @media  screen and (max-width:768px) {
+@media  screen and (max-width:768px) {
+*{
+  border: 2px solid red;
+  overflow:scroll;
+}
+  .model.open {
   
-} */
+    width: 100vw;
+  
+  }
+}
